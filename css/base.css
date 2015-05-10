@@ -1,0 +1,31 @@
+body{
+    margin:0;
+}
+header {
+    background:#000;
+    padding:10px;
+    color:#fff;
+}
+header input{
+    color:#000;
+    margin-left: 20px;
+}
+#imageContainer{
+}
+
+#imageContainer img{
+    width:75px;
+    height:75px;
+}
+#imageContainer img.selected{ 
+    width:75px;
+    height:75px;
+    background:blue;
+    opacity: 0.15;
+}
+.main{
+    box-shadow: rgba(0,0,0,0.2) 0 0 20px;
+}
+.menu{
+    background:#f8f8f8;
+}

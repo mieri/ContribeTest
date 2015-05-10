@@ -1,16 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title></title>
-    
-    <script src="script.js"></script>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <title>flickr test</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/base.css">
+    </head>
 
-<body>
-    <div>
-        
-    </div>
-</body>
+    <body>
+        <header>
+            <div class="container"> Contribe flickr test</div>
+        </header>
+        <div class="container main">
+            <div class="col-md-9">
+                <div id="largeImageContainer"></div>
+                <div id="imageContainer"></div>
+            </div>
+            <div class="col-md-3 menu">
+                <hr>
+                <input class="form-control" type="text" placeholder="Sök" id="searchInput">
+                <br>
+                <button id="showGallery" class="btn btn-primary btn-block">Visa galleri</button>
+                <hr>
+            </div>
+        </div>
 
+        <script src="js/flickr.js"></script>
+        <script src="js/script.js"></script>
+    </body>
 </html>
